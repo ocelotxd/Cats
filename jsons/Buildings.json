@@ -1,0 +1,36 @@
+[
+{
+        "name": "City of Cats",
+        "isNationalWonder": true,
+        "happiness": 5,
+        "science": 1,
+        "gold": 2,
+        "culture": 5,
+        "food": 2,
+        "cost": 10,
+        "requiredNearbyImprovedResources": ["Cats"],
+        "uniques": ["Unsellable", "Never destroyed when the city is captured"], "[+10]% [Happiness] [in this city]
+        "cityStrength": 3
+},
+{
+        "name": "Tamed Cats",
+        "hurryCostModifier": 25,
+        "gold": 2,
+        "uniques": ["+1 Happines for every 2 population [in this city]", "Consumes [2] [Cats]"],
+        "requiredTech": "Animal Husbandry"
+},
+{
+        "name": "Rat Breeder",
+        "hurryCostModifier": 25,
+        "Food": 5,
+        "uniques": ["+1 Food for every 2 population [in this city]", "Consumes [1] [Cats]"],
+        "requiredTech": "Refrigeration"
+},
+{
+        "name": "Cat Breeding Chamber",
+        "hurryCostModifier": 100,
+        "Food": 2,
+        "uniques": ["Provides [4] [Cats]"], "consumes [2] [Cats]
+        "requiredTech": "Animal Husbandry"
+},
+]

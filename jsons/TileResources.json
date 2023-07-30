@@ -1,0 +1,13 @@
+[
+{
+		"name": "Cats",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Forest","Tundra","Flood plains","Desert"],
+		"happiness": 1,
+                "production": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1},
+                "majorDepositAmount": {"sparse": 10, "default": 20, "abundant": 20},
+		"minorDepositAmount": {"sparse": 5, "default": 15, "abundant": 15},
+	},
+  ]
